@@ -13,7 +13,7 @@ on:
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
   RESOURCE-GROUP: Kingb_Group
-  LOCATION: westeurope
+  LOCATION: SouthAfricaNorth
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: 88042d0a-7b6c-418e-bdac-cbed1afd23d4
   WEBAPP-NAME: eshoponweb-webapp-Kingb
