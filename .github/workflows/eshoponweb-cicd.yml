@@ -2,7 +2,14 @@ name: eShopOnWeb Build and Test
 
 #Triggers (uncomment line below to use it)
 #on: [push, workflow_dispatch]
-
+on:
+  push: 
+    branches: 
+      - main 
+  pull_request: 
+    branches: 
+      - main 
+  workflow_dispatch: # allows manual run from the Actions tab
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
   RESOURCE-GROUP: Kingb_Group
